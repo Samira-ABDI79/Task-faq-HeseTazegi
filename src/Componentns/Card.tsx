@@ -5,10 +5,10 @@ interface type{
     description:string;
     index:number;
 }
-const hindiDigits = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹" ,  , , ];
+const hindiDigits = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹" ,"۱۰"  ,"۱۱" ,"۱۲","۱۳" ];
 export default function Card(props:type){
     const [isCollapsed, setIsCollapsed] = useState(true)
-    // const index = toPersianNumber()
+    
     const index = hindiDigits[Number(props.index +1)]
     return (
         <>
