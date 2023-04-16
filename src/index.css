@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #F5F5F5;
+}
+
+
+.CustomBreadcrumbs-link {
+    @apply  text-[12px] font-[500] leading-[24px]
+}
