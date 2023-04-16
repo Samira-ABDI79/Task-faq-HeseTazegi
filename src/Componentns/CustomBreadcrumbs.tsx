@@ -14,7 +14,7 @@ export default function CustomBreadcrumbs({name})  {
 
     <Link to="/" className="text-[#B0BF24] " >صفحه اصلی</Link>
     <span className="px-1">&gt;</span>
-    <p className="text-[#3A3A3A]">{name}</p>
+    <p className="text-[#3A3A3A] font-DanaFaNum ">{name}</p>
     </div> 
   
   </>

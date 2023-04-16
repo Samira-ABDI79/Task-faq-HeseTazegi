@@ -2,10 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+    font-family: 'DanaFaNum1';
+    src: url('../public/fonts/Dana-FaNum-Black.ttf') format('truetype'),
+   
+   }
+
+   @font-face{
+    font-family: 'DanaFaNum2';
+    src: url('../public/fonts/Dana-FaNum-Bold.ttf') format('truetype'),
+   }
+
+   @font-face{
+    font-family: 'DanaFaNum3';
+    src: url('../public/fonts/Dana-FaNum-DemiBold.ttf') format('truetype'),
+   }
+   @font-face{
+    font-family: 'DanaFaNum4';
+    src: url('../public/fonts/Dana-FaNum-Medium.ttf') format('truetype'),
+   }
+
+h1,p,*{
+    /* font-family: DanaFaNum1; */
+
+}
 body{
     background: #F5F5F5;
+    /* font-family: DanaFaNum2; */
 }
-
+.boxShadow{
+    box-shadow: 0px 15px 30px rgba(233, 237, 242, 0.5);
+}
 
 .CustomBreadcrumbs-link {
     @apply  text-[12px] font-[500] leading-[24px]
